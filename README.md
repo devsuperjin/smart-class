@@ -1,6 +1,6 @@
 # 智慧教室系统 (Smart Class)
 
-本项目是一个集成的智慧教室解决方案，由三个模块组成：`smartclass-web`、`smartclass-backend` 和 `smartclass-node`。
+本项目是一个集成的智慧教室解决方案，由三个模块组成：`smartclass-web`、`smartclass-backend` 和 `smartclass-node`。此外这是我的毕业设计。
 
 ## 项目组成
 
@@ -55,13 +55,13 @@
 
 ## 协议与条款
 
-如您需要在企业网络中使用 Next Stream，建议先征求 IT 管理员的同意。下载、使用或分发 Next Stream 前，您必须同意 [协议](./LICENSE) 条款与限制。本项目不提供任何担保，亦不承担任何责任。
+如您需要在企业网络中使用 Smart Class，建议先征求 IT 管理员的同意。下载、使用或分发 Smart Class 前，您必须同意 [协议](./LICENSE) 条款与限制。本项目不提供任何担保，亦不承担任何责任。
 
 ## 快速安装
 
 > 本项目未进行严格的安全性测试，不建议部署安装在公网环境。
 
-- [原生安装](docs/install-naive.md)
+- 暂无
 
 ## 特别感谢
 
