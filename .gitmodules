@@ -1,0 +1,9 @@
+[submodule "smartclass-web"]
+	path = smartclass-web
+	url = https://gitee.com/devsuperjin/smartclass-web.git
+[submodule "smartclass-node"]
+	path = smartclass-node
+	url = https://gitee.com/devsuperjin/smartclass-node.git
+[submodule "smartclass-backend"]
+	path = smartclass-backend
+	url = https://gitee.com/devsuperjin/smartclass-backend.git
