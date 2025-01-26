@@ -5,7 +5,7 @@
 <div align="center">
 
 [![license](https://img.shields.io/badge/license-GPLv2-blue.svg)](./LICENSE)
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/arco-design/awesome-arco)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://gitee.com/devsuperjin/smart-class)
 
 </div>
 
