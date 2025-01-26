@@ -11,7 +11,7 @@
 
 # 智慧教室 (Smart Class)
 
-一个集成的智慧教室解决方案(目前代码还是屎山状态)，包含了三个子项目：`smartclass-web`、`smartclass-backend` 和 `smartclass-node`。除此之外，是我的毕业设计。
+一个集成的智慧教室解决方案(目前代码还是屎山状态，还在开发中...)，包含了三个子项目：`smartclass-web`、`smartclass-backend` 和 `smartclass-node`。除此之外，是我的毕业设计。
 
 ## 项目组成
 
@@ -23,6 +23,10 @@
 
 3. **smartclass-node**  
    本项目的设备端，暂且基于Python开发，目前可实现在RK3588、RK3566等Rockchip平台上实现实时推理与编码。
+
+4. **others**  
+   一些其他的依赖组件如 MediaMTX，MinIO，RabbitMQ 等，会在安装手册详细说明(当然现在还没有写...)。
+
 
 ## 项目架构
 
@@ -45,32 +49,32 @@
 ## 项目截图
 
 ### 0. 仪表板
-![Page 0](images/0.jpg)
 仪表板包含了系统基本的统计信息,公告等。
+![Page 0](images/0.jpg)
 
 ### 1. 用户设置
-![Page 1](images/1.jpg)
 如图所示
+![Page 1](images/1.jpg)
 
 ### 2. 设备监控
-![Page 2](images/2.jpg)
 (红色区域为手工PS,排除审核风险)
+![Page 2](images/2.jpg)
 
 ### 3. 我的参与
-![Page 3](images/3.jpg)
 我的参与包含了日程表及信息统计功能。
+![Page 3](images/3.jpg)
 
 ### 4. 教室管理
-![Page 4](images/4.jpg)
 教室管理包含了教室的添加删除等功能。
+![Page 4](images/4.jpg)
 
 ### 5. 创建预约
-![Page 5](images/5.jpg)
 创建预约包含了一个分步表单。
+![Page 5](images/5.jpg)
 
 ### 6. 低延时、高性能
-![Page 6](images/6.jpg)
 系统从`图像采集解码->图像处理及推理->编码->推流->WEB端拉流预览`整体延时约在500ms左右。
+![Page 6](images/6.jpg)
 
 ## 协议与条款
 
@@ -82,6 +86,9 @@
 
 - 暂无
 
-## 特别感谢
+## 参考
 
-> 暂无
+- Arco Design [link](https://github.com/arco-design/arco-design.git)
+- FastAPI [link](https://github.com/fastapi/fastapi.git)
+- RKNN-Toolkit [link](https://github.com/rockchip-linux/rknn-toolkit.git)
+- InsightFace [link](https://github.com/deepinsight/insightface.git)
