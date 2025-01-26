@@ -1,6 +1,17 @@
-# 智慧教室系统 (Smart Class)
+<div align="center">
+  <h1>Smart Class</h1>
+</div>
 
-本项目是一个集成的智慧教室解决方案(目前代码还是屎山状态)，由三个模块组成：`smartclass-web`、`smartclass-backend` 和 `smartclass-node`。除此之外，是我的毕业设计。
+<div align="center">
+
+[![license](https://img.shields.io/badge/license-GPLv2-blue.svg)](./LICENSE)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/arco-design/awesome-arco)
+
+</div>
+
+# 智慧教室 (Smart Class)
+
+一个集成的智慧教室解决方案(目前代码还是屎山状态)，包含了三个子项目：`smartclass-web`、`smartclass-backend` 和 `smartclass-node`。除此之外，是我的毕业设计。
 
 ## 项目组成
 
