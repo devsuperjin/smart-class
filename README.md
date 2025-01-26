@@ -1,17 +1,17 @@
 # 智慧教室系统 (Smart Class)
 
-本项目是一个集成的智慧教室解决方案，由三个模块组成：`smartclass-web`、`smartclass-backend` 和 `smartclass-node`。此外这是我的毕业设计。
+本项目是一个集成的智慧教室解决方案(目前代码还是屎山状态)，由三个模块组成：`smartclass-web`、`smartclass-backend` 和 `smartclass-node`。除此之外，是我的毕业设计。
 
 ## 项目组成
 
 1. **smartclass-web**  
-   本项目的前端
+   本项目的前端，基于 Arco Design 开发，不仅提供了功能齐全的管理配置页面，还具有设备录像实时查看等功能。
 
 2. **smartclass-backend**  
-   本项目的后端
+   本项目的后端，暂且基于Fastapi开发，后期会重构。
 
 3. **smartclass-node**  
-   本项目的设备端
+   本项目的设备端，暂且基于Python开发，目前可实现在RK3588、RK3566等Rockchip平台上实现实时推理与编码。
 
 ## 项目架构
 
@@ -33,33 +33,37 @@
 
 ## 项目截图
 
-### 1. Page 1
+### 0. 仪表板
+![Page 0](images/0.jpg)
+仪表板包含了系统基本的统计信息,公告等。
+
+### 1. 用户设置
 ![Page 1](images/1.jpg)
 如图所示
 
-### 2. Page 2
+### 2. 设备监控
 ![Page 2](images/2.jpg)
-如图所示
+(红色区域为手工PS,排除审核风险)
 
-### 3. Page 3
+### 3. 我的参与
 ![Page 3](images/3.jpg)
-如图所示
+我的参与包含了日程表及信息统计功能。
 
-### 4. Page 4
+### 4. 教室管理
 ![Page 4](images/4.jpg)
-如图所示
+教室管理包含了教室的添加删除等功能。
 
-### 5. Page 5
+### 5. 创建预约
 ![Page 5](images/5.jpg)
-如图所示
+创建预约包含了一个分步表单。
 
 ### 6. 低延时、高性能
-![Page 5](images/6.jpg)
+![Page 6](images/6.jpg)
 系统从`图像采集解码->图像处理及推理->编码->推流->WEB端拉流预览`整体延时约在500ms左右。
 
 ## 协议与条款
 
-如您需要在企业网络中使用 Smart Class，建议先征求 IT 管理员的同意。下载、使用或分发 Smart Class 前，您必须同意 [协议](./LICENSE) 条款与限制。本项目不提供任何担保，亦不承担任何责任。
+如您需要在生产环境中使用 Smart Class，建议先征求 **单位负责人** 的同意。下载、使用或分发 Smart Class 前，您必须同意 [协议](./LICENSE) 条款与限制。本项目不提供任何担保，亦不承担任何责任。
 
 ## 快速安装
 
