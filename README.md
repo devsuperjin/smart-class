@@ -96,3 +96,4 @@
 - FastAPI [link](https://github.com/fastapi/fastapi.git)
 - RKNN-Toolkit [link](https://github.com/rockchip-linux/rknn-toolkit.git)
 - InsightFace [link](https://github.com/deepinsight/insightface.git)
+- Datav Vue3 [link](https://github.com/vaemusic/datav-vue3.git)
